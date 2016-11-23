@@ -1,0 +1,96 @@
+begin data
+Mon Nov  7 13:03:01 GMT 2016
+[Mon, 07 Nov 2016 13:03:01 GMT / us-election-market-data-generator] INFO:: Script starting
+[Mon, 07 Nov 2016 13:03:01 GMT / us-election-market-data-generator] INFO:: Market Data api - request: GET markets.ft.com/research/webservices/securities/v1/time-series?minuteInterval=10&dayCount=2&symbols=IRDXY0:IUS,US10YT,INX:IOM,AW01:FSI,USDMXN,USDJPY&source=**********
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Market Data api - response: 200 generated at 2016-11-07T13:03:02
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Valid data for 'IRDXY0:IUS' symbol -> IRDXY0:IUS, 78 items
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Existing file found for IRDXY0:IUS at data/IRDXY0:IUS.csv
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Adding 0 items to existing data
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Writing out - Replacing data/IRDXY0:IUS.csv
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Successfully wrote file: data/IRDXY0:IUS.csv
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: IRDXY0:IUS done
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Valid data for 'US10YT' symbol -> US10YT, 115 items
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Existing file found for US10YT at data/US10YT.csv
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Adding 1 items to existing data
+[Mon, 07 Nov 2016 13:03:02 GMT / us-election-market-data-generator] INFO:: Writing out - Replacing data/US10YT.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Successfully wrote file: data/US10YT.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: US10YT done
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Valid data for 'INX:IOM' symbol -> INX:IOM, 78 items
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Existing file found for INX:IOM at data/INX:IOM.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Adding 0 items to existing data
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Writing out - Replacing data/INX:IOM.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Successfully wrote file: data/INX:IOM.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: INX:IOM done
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Valid data for 'AW01:FSI' symbol -> AW01:FSI, 193 items
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Existing file found for AW01:FSI at data/AW01:FSI.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Adding 0 items to existing data
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Writing out - Replacing data/AW01:FSI.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Successfully wrote file: data/AW01:FSI.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: AW01:FSI done
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Valid data for 'USDMXN' symbol -> USDMXN, 72 items
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Existing file found for USDMXN at data/USDMXN.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Adding 0 items to existing data
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Writing out - Replacing data/USDMXN.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Successfully wrote file: data/USDMXN.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: USDMXN done
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Valid data for 'USDJPY' symbol -> USDJPY, 90 items
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Existing file found for USDJPY at data/USDJPY.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Adding 0 items to existing data
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Writing out - Replacing data/USDJPY.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Successfully wrote file: data/USDJPY.csv
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: USDJPY done
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-generator] INFO:: Script exiting
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Script starting
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Parsing data in data/AW01:FSI.csv as AW01:FSI
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Parsing data in data/IRDXY0:IUS.csv as IRDXY0:IUS
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Parsing data in data/US10YT.csv as US10YT
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Setting chart timescale from 2016-11-06T12:00:00.000Z to 2016-11-07T13:03:03.447Z
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Formatting AW01:FSI series data - database contains 1657 points
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: AW01:FSI series data relevant to timeframe is 74 points
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Formatting IRDXY0:IUS series data - database contains 932 points
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: IRDXY0:IUS series data relevant to timeframe is 10 points
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Formatting US10YT series data - database contains 1050 points
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: US10YT series data relevant to timeframe is 38 points
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Mapping symbol data for AW01:FSI,IRDXY0:IUS,US10YT into the template
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Writing to conf/us-election-market-chart-data.json
+[Mon, 07 Nov 2016 13:03:03 GMT / us-election-market-data-to-chart-json] INFO:: Script exiting
+Mon Nov  7 13:03:03 GMT 2016
+end data
+begin charts
+Mon Nov  7 13:03:03 GMT 2016
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Script starting
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Creating directory "tmp"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating charts from the following data: [{"name":"night1-homepage-default","width":260,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":5,"layout":"horizontal","show":["IRDXY0:IUS"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night1-homepage-small","width":390,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":5,"layout":"horizontal","show":["IRDXY0:IUS"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night1-homepage-medium","width":640,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":8,"layout":"horizontal","show":["IRDXY0:IUS"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night1-homepage-large","width":420,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":8,"layout":"horizontal","show":["IRDXY0:IUS"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night1-homepage-xlarge","width":554,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":10,"layout":"horizontal","show":["IRDXY0:IUS"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night2-homepage-default","width":260,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":5,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night2-homepage-small","width":390,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":5,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night2-homepage-medium","width":640,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":8,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night2-homepage-large","width":420,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":8,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night2-homepage-xlarge","width":554,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":10,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night3-homepage-default","width":260,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":5,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI","US10YT"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night3-homepage-small","width":390,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":5,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI","US10YT"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night3-homepage-medium","width":640,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":8,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI","US10YT"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night3-homepage-large","width":420,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":8,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI","US10YT"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"},{"name":"night3-homepage-xlarge","width":554,"height":90,"background":null,"lineStroke":"#ff2b21","text":"#c2c2c2","mutedText":"#999999","textSize":13,"axisStroke":"#676767","spacing":10,"layout":"horizontal","show":["IRDXY0:IUS","AW01:FSI","US10YT"],"openCircleStroke":"#ffffff","openCircleFill":"#333333","closeCircleStroke":"#ff2b21","closeCircleFill":"#333333","downText":"#ff767c","upText":"#9cd321","metricEmbed":false,"gapStroke":"rgba(0,0,0,0.5)"}]
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night1-homepage-default"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night1-homepage-default.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night1-homepage-small"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night1-homepage-small.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night1-homepage-medium"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night1-homepage-medium.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night1-homepage-large"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night1-homepage-large.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night1-homepage-xlarge"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night1-homepage-xlarge.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night2-homepage-default"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night2-homepage-default.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night2-homepage-small"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night2-homepage-small.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night2-homepage-medium"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night2-homepage-medium.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night2-homepage-large"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night2-homepage-large.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night2-homepage-xlarge"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night2-homepage-xlarge.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night3-homepage-default"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night3-homepage-default.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night3-homepage-small"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night3-homepage-small.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night3-homepage-medium"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night3-homepage-medium.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night3-homepage-large"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night3-homepage-large.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Generating chart "night3-homepage-xlarge"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Saving chart "tmp/night3-homepage-xlarge.svg"
+Mon, 07 Nov 2016 13:03:03 GMT - INFO:: Script exiting
+Mon Nov  7 13:03:03 GMT 2016
+end charts

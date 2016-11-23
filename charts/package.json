@@ -1,0 +1,18 @@
+{
+  "name": "eu-referendum-results-charts",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Generate charts for the EU referendum results.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "d3-array": "^0.6.2",
+    "d3-format": "^0.5.1",
+    "d3-scale": "^0.2.0",
+    "d3-shape": "^0.3.0",
+    "nunjucks": "^2"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}

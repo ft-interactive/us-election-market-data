@@ -1,0 +1,52 @@
+{
+	"charts": [
+		{
+			"symbol": "USDJPY",
+			"type": "currency",
+			"yLabel": "$ vs ¥",
+			"xLabel": "",
+			"symbolLabel": "¥",
+			"series": []
+		},
+		{
+			"symbol": "USDMXN",
+			"type": "currency",
+			"yLabel": "$ vs\nMXN",
+			"xLabel": "",
+			"symbolLabel": "",
+			"series": []
+		},
+		{
+			"symbol": "INX:IOM",
+			"type": "index",
+			"yLabel": "S&P\n500",
+			"xLabel": "",
+			"symbolLabel": "",
+			"series": []
+		},
+		{
+			"symbol": "IRDXY0:IUS",
+			"type": "index",
+			"yLabel": "Dollar\nindex",
+			"xLabel": "",
+			"symbolLabel": "$",
+			"series": []
+		},
+		{
+			"symbol": "AW01:FSI",
+			"type": "price",
+			"yLabel": "FTSE\nAll-World",
+			"xLabel": "",
+			"symbolLabel": "",
+			"series": []
+		},
+		{
+			"symbol": "US10YT",
+			"type": "price",
+			"yLabel": "US 10yr\nbond",
+			"xLabel": "",
+			"symbolLabel": "",
+			"series": []
+		}
+	]
+}
